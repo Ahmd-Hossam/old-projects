@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,+FAA+F;AAC/F,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,6CAA6C;EACzD,eAAe,EAAE,KAAK;CACzB;;AACD,2FAA2F",
+    "sources": [
+        "chef.scss"
+    ],
+    "names": [],
+    "file": "chef.css"
+}

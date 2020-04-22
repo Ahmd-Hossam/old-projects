@@ -1,0 +1,77 @@
+/* start overlay mixin */
+@mixin overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+/* end overlay mixin */
+
+
+
+/* start perefixer mixin */
+@mixin prefixer($property, $value, $prefixes: ()){
+    @each $prefix in $prefixes{
+        #{'-'+ $prefix + '-' + $property}:$value;
+    }
+    #{$property}:$value;
+}
+/* end perefixer mixin */
+
+
+
+/*start animation mixin */
+@mixin animate_mixin($animate_name){
+    @-webkit-keyframes #{$animate_name}{
+        @content;
+    }
+    @-moz-keyframes #{$animate_name}{
+        @content;
+    }
+    @keyframes #{$animate_name}{
+        @content;
+    }
+}
+/*end animtion mixin */
+
+
+/* start opacity mixen عشان يشتغل علي انترنت اكسبلورر */ 
+@mixin opacity($value){
+    zoom:1;
+    $opacity-count:$value*100;
+    filter: alpha(opacity=$opacity-count);
+    opacity: $value;
+}
+/*  
+.elemnt{
+    @include opacity(.4);
+}
+*/
+/* end opacity mixen */
+
+
+
+
+
+/* start transiton mixen */
+@mixin transiton($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+/* 
+.elemnt{
+    @include transition(all 3s esea-in-out);
+}
+*/
+/* end transiton mixen */
+
+
+
+/* start mix-color mixen  */
+.element{
+    color:red+green;
+}
+/* end mix-color mixen  */

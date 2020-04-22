@@ -1,0 +1,13 @@
+
+/* فايده الصفحه دي انها تستدعي كل الملفات بتاعت كل جزء في الموقع واعدل هناك علي الملفات تت*/
+/*_ مش بيتعمل كمبيل هناك بكتب هناك واعمل كمبيلر هنا عشان كده كل صفحه معمولها */
+@import 'sass/helpers/variablels';
+@import 'sass/helpers/mixing';
+@import 'sass/components/buttons';
+@import 'sass/layout/grad';
+
+
+@import 'sass/pages/all_Pages';
+@import'sass/layout/header';
+@import'sass/pages/homepage';
+@import'sass/layout/footer';

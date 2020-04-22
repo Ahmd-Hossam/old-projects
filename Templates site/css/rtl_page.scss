@@ -1,0 +1,221 @@
+/****************************************** start header    ******************************/
+header{
+    .logo{
+        float: right;;
+        @media (min-width: 993px){
+            text-align:right;
+        }
+    }
+    .navbar{
+        float: right;;
+        li{
+            float:right;
+        }
+        @media (max-width:767px){
+            li{
+                float:right;
+                text-align:right;
+            }
+        }
+        @media (min-width:993px){
+            float:right;
+        }
+    }
+    .humburger_button{
+        right: auto;
+        left: 20px;
+        top: 30px;
+        .line:first-of-type{
+            margin:2.5px 2px;
+            float:left;
+        }
+        .line:nth-of-type(2){
+            width:60%;
+            margin:2.5px 2px;
+            float:left;
+        }
+        .line:nth-of-type(3){
+            width:40%;
+            margin:2.5px 2px;
+            float:left;
+        }
+    }
+    .switch_lan{
+        color: #79A63D;
+        border: 1px solid #7b5f5f;
+        padding: 3px;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+        @media(max-width:767px){
+            right: -8px;
+        }
+        @media(min-width: 768px) and (max-width:992px){
+            right:650px;
+        }
+        @media(min-width: 993px){
+            right: 69%;
+        }
+    }
+    
+}
+/*************************************   end header    ***********************************/
+
+
+
+
+
+/************************************* start slider    ***********************************/
+.slider{
+    .info{
+        float: right;
+    }
+    .slider_img{
+        float:right;
+    }
+}
+/***********************************  end slider    ************************************/
+
+
+
+
+
+/**********************************   start our services  ******************************/
+.our_services{
+    .services_box{
+        @media (min-width:993px){
+            float:right;
+        }
+    }
+}
+/******************************     end our services     **********************************/
+
+
+
+
+/***************************** start our templates   ***************************************/
+.our_tempalts{
+    overflow: hidden;
+    .services_box{
+        @media (min-width:768px ){
+            float: right;
+        }
+        @media (min-width:993px){
+            float: right;
+        }
+        @media (min-width:1200px){
+            float: right;
+        }
+    }
+}
+/***********************************  end our templates   *****************************/
+
+
+
+
+/*********************************  start team plance   *******************************/
+.our_plans{
+    .info{
+        @media(min-width: 768px)and (max-width: 992px){
+            margin-top: 40px;
+        }
+        h1{
+            font-size: 38px;
+        }
+        p{
+            padding:0;
+        }
+        i{
+            right: 5px;
+        }
+    }
+}
+/*********************************     end  team plance    *******************************/
+
+
+
+
+/******************************     start free files   **********************************/
+.our_files{
+    .info{
+        padding: 0;
+        float:right;
+        @media(min-width: 768px)and (max-width: 992px){
+            margin-top: 40px;
+        }
+        h1{
+            font-size: 38px;
+        }
+        p{
+            padding: 0;
+        }
+        i{
+            right: 5px;
+        }
+    }
+    .cont_img{
+        float:right;
+    }
+}
+ /*********************************     end free files   *******************************/
+
+
+
+
+
+
+/* start subscribe  ***************************************************************/
+.subscripe{
+    .info{
+        h1{
+            font-size: 38px;
+        }
+        @media (max-width: 767px){
+            margin-top: 150px !important;
+        }
+    }
+}
+/* end subscribe ***************************************************************/
+
+
+
+
+
+
+/*************************************** start footer ******************************************/
+.footer{
+    .part_one,
+    .part_two,
+    .part_three{
+        float: right;
+    }
+    .part_one{
+        @media(min-width: 768px){
+            padding-right: 10px;
+        }
+    }
+}
+/***************************************        end footer ******************************************/
+
+/***************************************  start copyright  ******************************************/
+.copyright{
+    .copy,
+    .author{
+        @media (min-width:768px){
+            float:right;
+        }
+    }
+    .copy{
+        @media (min-width:768px){
+            text-align: right;
+        }
+    }
+    .author{
+        @media (min-width:768px){
+            text-align:left;
+        }
+    }
+}
+/***************************************   end copyright  ******************************************/
+
+

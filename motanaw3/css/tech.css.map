@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,+FAA+F;AAC/F,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,gDAAgD,CAAC,UAAU;EACvE,eAAe,EAAE,KAAK;CACzB;;AACD,2FAA2F",
+    "sources": [
+        "tech.scss"
+    ],
+    "names": [],
+    "file": "tech.css"
+}

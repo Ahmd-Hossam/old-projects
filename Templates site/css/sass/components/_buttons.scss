@@ -1,0 +1,48 @@
+button{
+    font-size: 50px;
+}
+
+/* star humburger button */
+.humburger_button{
+    position: absolute;
+    width:30px;
+    height:30px;
+    right:20px;
+    top:30px;
+    cursor:pointer;
+    .line{
+        width:85%;
+        height: 3px;
+        margin:5px auto;
+        background:#79A63D;
+        @include prefixer(transition , all .5s ease-in-out, webkit moz o)
+    }
+    .line:nth-of-type(2){
+        width:60%;
+        margin:5px 2px;
+    }
+    .line:nth-of-type(3){
+        width:40%;
+        margin:5px 2px;
+    }
+    &:hover .line:nth-of-type(2),
+    &:hover .line:nth-of-type(3){
+        width:85%;
+    }
+    @media #{$min_small}{
+        display:none;
+    }
+}
+    /*start switch lines*/
+            .first{
+                @include prefixer(transform,rotate(45deg) translate(5px, 6px),webkit moz );
+            }
+            .second{
+                display: none;
+            }
+            .third{
+                @include prefixer(transform,rotate(-45deg) translate(0px, 0px),webkit moz );
+                width:85% !important;
+            }
+    /*end switch lines*/
+/* end humburger button */

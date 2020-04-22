@@ -1,0 +1,124 @@
+header{
+    border-bottom:1px solid $gray_color;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    background:#282828;
+    font-family: Arial, Helvetica, sans-serif;
+    @media #{$max_mobile}{
+        padding:0;
+    }
+    .logo{
+        float:$float_left;
+        width:30%;
+        cursor: pointer;
+        h2{
+            color:#79A63D;
+            margin-bottom: 10px;
+            margin-top:22px;
+            a{
+                text-decoration: none;
+                color:#79A63D;
+            }
+            
+        }
+        p{
+            margin-top:-1px;
+            color:#fff;
+            font-size: 12px;
+        }
+        @media #{$max_mobile}{
+            width:42%;
+            h2{
+                margin-bottom:8px;
+            }
+        }
+        @media #{$min_small}{
+            width:100%;
+            text-align:center;
+        }
+        @media #{$min_medium}{
+            width:30%;
+            text-align:$float_left;
+        }
+    }
+    .navbar{
+        float: $float_left;
+        width:70%;
+        margin-top: 40px;
+        border-radius: 20px;
+        li{
+            float:$float_left;
+            text-align: center;
+            width:20%;
+            a{
+                text-decoration: none;
+                color:#fff;
+                text-transform: capitalize;
+                font-size: 17px;
+                font-weight: bold;
+                &:hover{
+                    color:#4772D9;
+                }
+            }
+        }
+        @media #{$max_mobile}{
+            display: none;
+            border-radius:0;
+            margin:0;
+            padding: 0;
+            width:100%;
+            li{
+                float:$float_left;
+                width:100%;
+                display:block;
+                text-align:$text_left;
+                padding:15px 10px;
+                @include prefixer(transition , all .3s ease-in-out, webkit moz o);
+                &:hover{
+                    background: #222222;
+                }
+            }
+            .active_li{
+                background: #222222;
+            }
+        }
+        @media #{$min_small}{
+            width:100%;
+            text-align:center;
+            display: block !important;
+        }
+        @media #{$min_medium}{
+            float: $float_left;
+            width:70%;
+        }
+    }
+}
+
+
+.switch_lan{
+    position: relative;
+    color: #79A63D;
+    border: 1px solid #7b5f5f;
+    padding: 3px 5px;
+    cursor: pointer;
+    text-decoration: none;
+    @media(max-width:767px){
+        top: 44px;
+        right: -8px;
+    }
+    @media(min-width: 768px) and (max-width:992px){
+        right: -660px;
+        top: -119px;
+    }
+    @media(min-width: 993px){
+        top: -36px;
+        right: -69%;
+    }
+}
+
+/*start active */
+.active_a{
+    color:#4772D9 !important;
+}
+/* end active */

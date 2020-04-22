@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* start colors */
+/* end colors */
+/* start float */
+/* end float */
+/*start text*/
+/*end text */
+/*start classes*/
+@media (max-width: 767px) {
+  .text_xs_center {
+    text-align: center;
+  }
+}
+
+/*end classes*/
+/* بستدعي صفحه المتغيرات واجيب كل صفحات التنسيق واغير بس ف  الفلوت*/
+/* start header *****************************************************/
+header .logo {
+  float: right;
+}
+
+@media (min-width: 992px) {
+  header .logo {
+    text-align: right;
+  }
+}
+
+header .navbar {
+  float: right;
+}
+
+header .navbar li {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  header .navbar li {
+    float: right;
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  header .navbar {
+    float: right;
+  }
+}
+
+header .humburger_button {
+  right: auto;
+  left: 20px;
+  top: 30px;
+}
+
+header .humburger_button .line:first-of-type {
+  margin: 2.5px 2px;
+  float: left;
+}
+
+header .humburger_button .line:nth-of-type(2) {
+  width: 60%;
+  margin: 2.5px 2px;
+  float: left;
+}
+
+header .humburger_button .line:nth-of-type(3) {
+  width: 40%;
+  margin: 2.5px 2px;
+  float: left;
+}
+
+/* end header *****************************************************/
+/* start our services ***************************************************************/
+@media (min-width: 992px) {
+  .our_services .services_box {
+    float: right;
+  }
+}
+
+/* end our services ***************************************************************/
+/* start our players  ***************************************************************/
+.our_players {
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .our_players .services_box {
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .our_players .services_box {
+    float: right;
+  }
+}
+
+@media (min-width: 1200px) {
+  .our_players .services_box {
+    float: right;
+  }
+}
+
+/* end our players  ***************************************************************/
+/* start lorem ipsum ***************************************************************/
+.our_ipsum .ipsum_box {
+  float: right;
+}
+
+/* end lorem ipsum ***************************************************************/
+/* start footer ***************************************************************/
+.footer .part_one,
+.footer .part_two,
+.footer .part_three {
+  float: right;
+}
+
+.footer .part_one .main {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .footer .part_one .main .cont_img {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .part_one .main .cont_info {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .copyright .copy,
+  .copyright .author {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .copyright .copy {
+    text-align: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .copyright .author {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=rtl_page.css.map */

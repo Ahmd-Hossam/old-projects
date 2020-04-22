@@ -1,0 +1,42 @@
+
+$min_small:"(min-width:768px)";
+$min_medium:"(min-width:993px)";
+$min_larg:"(min-width:1200px)";
+$max_mobile:"(max-width:767px)";
+$max_medium:"(max-width:992px)";
+
+
+
+
+
+
+
+/* start colors */
+$back_color:rgb(30, 17, 51);
+$main_color:#4DAEA6;
+$gray_color:#999;
+$pra_color:#555;
+$defult_color:#79A63D;
+/* end colors */
+
+
+
+/* start float */
+$float_left:left;
+$float_right:right;
+/* end float */
+
+
+/*start text*/
+$text_right:right;
+$text_left:left;
+/*end text */
+
+
+/*start classes*/
+@media #{$max_mobile}{
+    .text_xs_center{
+        text-align:center;
+    }
+}
+/*end classes*/

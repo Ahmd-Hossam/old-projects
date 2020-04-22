@@ -1,0 +1,138 @@
+
+@import 'sass/helpers/variablels';               /* بستدعي صفحه المتغيرات واجيب كل صفحات التنسيق واغير بس ف  الفلوت*/
+
+$float_left:right;
+$float_right:left;
+$text_right:left;
+$text_left:right;
+
+/* start header *****************************************************/
+header{
+    .logo{
+        float:$float_left;
+        @media #{$min_medium}{
+            text-align:$float_left;
+        }
+    }
+    .navbar{
+        float: $float_left;
+        li{
+            float:$float_left;
+        }
+        @media #{$max_mobile}{
+            li{
+                float:$float_left;
+                text-align:$text_left;
+            }
+        }
+        @media #{$min_medium}{
+            float: $float_left;
+        }
+    }
+    .humburger_button{
+        right: auto;
+        left: 20px;
+        top: 30px;
+        .line:first-of-type{
+            margin:2.5px 2px;
+            float:left;
+        }
+        .line:nth-of-type(2){
+            width:60%;
+            margin:2.5px 2px;
+            float:left;
+        }
+        .line:nth-of-type(3){
+            width:40%;
+            margin:2.5px 2px;
+            float:left;
+        }
+    }
+}
+/* end header *****************************************************/
+
+
+
+
+/* start our services ***************************************************************/
+.our_services{
+    .services_box{
+        @media #{$min_medium}{
+            float:$float_left;
+        }
+    }
+}
+/* end our services ***************************************************************/
+
+
+
+
+/* start our players  ***************************************************************/
+.our_players{
+    overflow: hidden;
+    .services_box{
+        @media #{$min_small}{
+            float: $float_left;
+        }
+        @media #{$min_medium}{
+            float: $float_left;
+        }
+        @media #{$min_larg}{
+            float: $float_left;
+        }
+    }
+}
+/* end our players  ***************************************************************/
+
+
+/* start lorem ipsum ***************************************************************/
+.our_ipsum{
+    .ipsum_box{
+        float:$float_left;
+    }
+}
+/* end lorem ipsum ***************************************************************/
+
+
+/* start footer ***************************************************************/
+
+.footer{
+    .part_one,
+    .part_two,
+    .part_three{
+        float: $float_left;
+    }
+    .part_one{
+        .main{
+            float:$float_left;
+            .cont_img{
+                @media #{$min_small}{
+                    float:$float_left;
+                }
+            }
+            .cont_info{
+                @media #{$min_small}{
+                    float:$float_left
+                }
+            }
+        }
+    }
+}
+.copyright{
+    .copy,
+    .author{
+        @media #{$min_small}{
+            float:$float_left;
+        }
+    }
+    .copy{
+        @media #{$min_small}{
+            text-align: $text_left;
+        }
+    }
+    .author{
+        @media #{$min_small}{
+            text-align: $text_right;
+        }
+    }
+}
